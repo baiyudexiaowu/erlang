@@ -1,7 +1,5 @@
 
-
-import queue
-
+import queue,random
 
 q=queue.Queue(maxsize=10) # FIFO
 

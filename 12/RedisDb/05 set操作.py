@@ -1,13 +1,10 @@
 
-import redis
+import redis,os
 pool = redis.ConnectionPool(host='127.0.0.1', port=6379)
 r = redis.Redis(connection_pool=pool)
 
-
-
 # r.sadd("score_set01",1,2,3,4,5,6,6)
 # r.sadd("score_set02",4,5,6,7,8)
-
 
 # print(r.smembers("score_set01"))
 # print(r.smembers("score_set02"))

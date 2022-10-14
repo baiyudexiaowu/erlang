@@ -38,7 +38,7 @@ r = redis.Redis(connection_pool=pool)
 
 for i in r.hscan_iter("abc",match="a*"):
     print(i)
-
+# 开发100%
 
 
 
